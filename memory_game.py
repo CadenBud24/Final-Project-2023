@@ -26,3 +26,7 @@ while running:
     pygame.display.flip()
 
 pygame.quit()
+blue_image = pygame.image.load("assets/lizard.png")
+blue_image = pygame.transform.flip(blue_image, True, False)
+blue_image = pygame.transform.scale(blue_image, (200,200))
+random.randint(1,4)

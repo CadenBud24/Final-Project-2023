@@ -1,5 +1,11 @@
+#imports 
 import pygame
 import random
 
-input('What is your Name?  ')
-input('What difficulty do you want 1 = easy, 2 = medium, 3 = hard')
+#def
+def display(text, x, y, size):
+    set_my_font = pygame.font.SysFont("timesnewroman", 30)
+    textSurface = set_my_font.render(text, True, "#000000")
+
+screen = pygame.display.set_mode((600,800))
+pygame.display.set_caption("Memory Game")

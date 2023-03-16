@@ -27,3 +27,7 @@ green_image = pygame.transform.scale(green_image, (200,200))
 purple_image = pygame.image.load("big_purple.png")
 purple_image = pygame.transform.scale(purple_image, (200,200))
 
+def blue(x, y):
+   screen.blit(blue_image, (100,100))
+
+
